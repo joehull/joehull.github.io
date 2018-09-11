@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+body {
+  margin:0px;
+  background-color: #8A7BAF;
+}
+.color-block {
+  background:#432F75;
+  width:60%;
+  padding:7% 20% 10% 20%;
+  color:#fff;
+}
+.white-block {
+  background:#fff;
+  width:60%;
+  padding:7% 20% 10% 20%;
+  color:#823A9C;
+}
+h1 {
+  text-align:center;
+  font-size:80px;
+  font-family:'raleway', sans-serif;
+  font-weight:normal;
+}
+h2 {
+  text-align:center;
+  font-size:40px;
+  font-family:'raleway', sans-serif;
+  font-weight:normal;
+}
+p {
+  font-size:20px;
+  font-family:'roboto', serif;
+}
+
+#profile-pic {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #432F75 49%, #fff 50%),    linear-gradient(-50deg, #8A7BAF 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #432F75 50%);
+}
+
+/*----------------------*/
+/*  SKILLS TAB BULLETS  */
+/*----------------------*/
+
+
